@@ -1,0 +1,180 @@
+
+
+/* медиа запрос для екранов с шириной до 1140*/
+@media (max-width: 1140px) {
+    .card {
+        width: calc(50% - 15px);
+    }
+}
+
+
+@media (max-width: 950px) {
+    .footer-copy-name {
+        font-size: 20px;
+    }
+    .footer-icons p {
+        font-size: 12px;
+    }
+    .footer-contacs p {
+       
+        font-size: 12px;
+    }
+
+    .footer-button {
+        
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .footer-copy p {
+        font-size: 12px;
+    }
+
+
+
+    .project-header {
+    font-size: 25px;
+    margin-bottom: 30px;
+    }   
+
+    .project-header-four {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.project-img {
+    margin-bottom: 20px;
+}
+
+
+
+ 
+
+
+}
+
+
+@media (max-width: 768px) {
+    .two {
+        font-size: 30px;
+    }
+    .tree {
+        font-size: 17px;
+    }
+    .portfolio {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .section-main {
+        font-size: 30px;
+    }
+    
+    .card {
+        
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .card-link {
+        padding: 15px;
+    }
+    
+
+
+    .portfolio-cards-wrapper {
+        justify-content: center;
+    }
+    
+    .card-img {
+        margin-bottom: 15px;
+    }
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .footer-copy-name {
+        margin-top: 20px;
+       text-align: center;
+        font-size: 20px;
+    }
+    .footer-copy p {
+        font-size: 13px;
+    }
+    .footer-button { 
+        text-align: center;
+        font-size: 18px;
+    }
+    .footer-contacs p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+    .footer-icons p {
+        font-size: 13px;
+    }
+
+
+
+    .social-icons {
+        width: 21px;
+        height: 21px;
+    }
+
+    .footer { 
+       
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .forest {
+        padding: 40px 0 60px;
+}
+
+
+.blood {
+    height: 300px;
+}
+
+
+
+
+}
+@media (max-width: 600px) {
+        .card-img {
+        height: 150px;
+    }
+    
+    .footer-button {
+        text-align: center;
+    }
+    .blood {
+        height: 200px;
+    }
+
+
+    .project-description p {
+        font-size: 15px;
+        margin-bottom: 40px;
+
+    }
+}    
+
+
